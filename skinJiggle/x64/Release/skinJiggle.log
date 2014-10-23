@@ -1,0 +1,21 @@
+﻿Build started 6/10/2014 8:45:48 PM.
+     1>Project "c:\Users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\skinJiggle\skinJiggle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Autodesk\Maya2014\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _MBCS /D _WINDLL /D _MBCS /D WIN32 /D NDEBUG /D _WINDOWS /D NT_PLUGIN /D REQUIRE_IOSTREAM /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt cvJiggleCmd.cpp cvJiggleDeformer.cpp Main.cpp
+         cvJiggleCmd.cpp
+         cvJiggleDeformer.cpp
+     1>cvJiggleDeformer.cpp(313): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.mll" /NOLOGO /LIBPATH:"C:\Program Files\Autodesk\Maya2014\lib" Foundation.lib OpenMaya.lib OpenMayaUI.lib OpenMayaAnim.lib OpenMayaFX.lib OpenMayaRender.lib Image.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.lib" /MACHINE:X64 /export:initializePlugin /export:uninitializePlugin /DLL x64\Release\cvJiggleCmd.obj
+         x64\Release\cvJiggleDeformer.obj
+         x64\Release\Main.obj
+            Creating library c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.lib and object c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.exp
+         Generating code
+         Finished generating code
+         skinJiggle.vcxproj -> c:\users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\x64\Release\skinJiggle.mll
+     1>Done Building Project "c:\Users\dwilliams\documents\visual studio 2012\Projects\skinJiggle\skinJiggle\skinJiggle.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.07
